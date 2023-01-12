@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssuredAssignment.RestApi.Tc1">
+      <class name="restAssuredAssignment.RestApi.Tc2">
         <methods>
           <include name="verifyTeamHasFourForeignPlayer"/>
         </methods>
-      </class> <!-- restAssuredAssignment.RestApi.Tc1 -->
+      </class> <!-- restAssuredAssignment.RestApi.Tc2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

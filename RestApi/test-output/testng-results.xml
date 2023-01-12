@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-12T09:20:38Z" name="Default suite" finished-at="2023-01-12T09:20:42Z" duration-ms="3518">
+  <suite started-at="2023-01-12T16:08:30Z" name="TesngSuit" finished-at="2023-01-12T16:08:33Z" duration-ms="3631">
     <groups>
     </groups>
-    <test started-at="2023-01-12T09:20:38Z" name="Default test" finished-at="2023-01-12T09:20:42Z" duration-ms="3518">
+    <test started-at="2023-01-12T16:08:30Z" name="TestSuit" finished-at="2023-01-12T16:08:33Z" duration-ms="3631">
       <class name="restAssuredAssignment.RestApi.Tc1">
-        <test-method signature="verifyTeamHasFourForeignPlayer()[pri:0, instance:restAssuredAssignment.RestApi.Tc1@1757cd72]" started-at="2023-01-12T09:20:38Z" name="verifyTeamHasFourForeignPlayer" finished-at="2023-01-12T09:20:42Z" duration-ms="3466" status="PASS">
+        <test-method signature="verifyTeamHasFourForeignPlayer()[pri:0, instance:restAssuredAssignment.RestApi.Tc1@ed7f8b4]" started-at="2023-01-12T16:08:30Z" name="verifyTeamHasFourForeignPlayer" finished-at="2023-01-12T16:08:33Z" duration-ms="3528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamHasFourForeignPlayer -->
       </class> <!-- restAssuredAssignment.RestApi.Tc1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="restAssuredAssignment.RestApi.Tc2">
+        <test-method signature="verifyTeamHasOneWicketKeeper()[pri:0, instance:restAssuredAssignment.RestApi.Tc2@4c309d4d]" started-at="2023-01-12T16:08:33Z" name="verifyTeamHasOneWicketKeeper" finished-at="2023-01-12T16:08:33Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamHasOneWicketKeeper -->
+      </class> <!-- restAssuredAssignment.RestApi.Tc2 -->
+    </test> <!-- TestSuit -->
+  </suite> <!-- TesngSuit -->
 </testng-results>

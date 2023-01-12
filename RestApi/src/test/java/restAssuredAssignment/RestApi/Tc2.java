@@ -19,7 +19,7 @@ public class Tc2 {
 	// RestAssured.baseURI = "";
 
 	@Test
-	public void verifyTeamHasFourForeignPlayer() {
+	public void verifyTeamHasOneWicketKeeper() {
 
 		// Given
 		RCB_Fixture fixture = new RCB_Fixture();

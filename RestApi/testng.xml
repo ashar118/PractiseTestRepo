@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TesngSuit">
+    <test name="TestSuit" >
+        <classes>
+            <class name="restAssuredAssignment.RestApi.Tc1"/>
+            <class name="restAssuredAssignment.RestApi.Tc2"/>
+        </classes>
+    </test>
+</suite>
