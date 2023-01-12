@@ -3,6 +3,7 @@ package restAssuredAssignment.RestApi;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
@@ -48,6 +49,8 @@ public class Tc2 {
 			}
 		}
 		System.out.println("Total Wicket-keeper " + map.size());
+		
+		Assert.assertEquals(map.size(), 1);
 
 	}
 

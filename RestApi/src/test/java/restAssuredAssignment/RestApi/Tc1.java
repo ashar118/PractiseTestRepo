@@ -2,6 +2,8 @@ package restAssuredAssignment.RestApi;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.restassured.response.Response;
 import team_Request_Model.RCB_Fixture;
@@ -50,6 +52,7 @@ public class Tc1 {
 			}
 		}
 		System.out.println("foreign player present are  " + map.size());
+		Assert.assertEquals(map.size(), 4);
 
 	}
 
