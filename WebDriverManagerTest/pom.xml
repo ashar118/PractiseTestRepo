@@ -35,7 +35,7 @@
 				<configuration>
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
-					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+					
 					<suiteXmlFiles>
 						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
@@ -52,8 +52,7 @@
 	<dependencies>
 
 
-
-		<dependency>
+<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>3.7.1</version>
@@ -79,7 +78,6 @@
 			<version>1.18.12</version>
 			<scope>provided</scope>
 		</dependency>
-
 
 	</dependencies>
 </project>
